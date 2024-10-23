@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme for dark mode -->
+    <style name="Theme.StepAppV4" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary color in dark mode -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">?attr/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Background color in dark mode -->
+        <item name="android:colorBackground">@color/black</item>
+
+        <!-- Accent color in dark mode -->
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+</resources>
